@@ -68,7 +68,7 @@ If you don't precise the currency you want, by default we obtain the conversion 
 
 When you run the previous command, you'll obtain the following result :
 
-![alt text](../img/conversion.png "Screen2")
+![alt text](.././img/conversion.png "Screen2")
 
 If you want specific currencies, you have to add after the command the currency you want to calculate.
 
