@@ -49,7 +49,7 @@ node /cash/bin/index.js
 ```
 - After we have the following result :
 
-![alt text](../img/usage.png "Screen1")
+![alt text](https://github.com/Rabz-9/3-musketeers/tree/master/img/usage.png "Screen1")
 
 To process the conversion and get the current rate, we use an **API** : *http://akep.us/currencies*
 
