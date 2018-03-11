@@ -7,8 +7,13 @@ const currencies = require('../lib/currencies.json');
 
 const API = 'https://api.fixer.io/latest';
 
-/** The following function, permit to
-*@param
+/**
+*The following function, permit to convert a currency to an other one
+@param {int} amount - Amount of money we want to convert
+@param {String} from - Currency we want to convert
+@param {String} to - Currency obtained after conversion
+@param {JSON} response - Load all the currencies with the rate from the API
+@param {JSON} loading - Using ORA, it displays an elegant terminal spinner
  **/
 const convert = configuration => {
   const {amount, to, from, response, loading} = configuration;
@@ -38,6 +43,13 @@ const convert = configuration => {
   process.exit(1);
 };
 
+/**
+*This method permits to initialize the parameters(amount we want to convert, currency actual, currency to be determined
+) and load the currencies & rates from the API
+@param {int} amount - Amount of money we want to convert
+@param {String} from - Currency we want to convert
+@param {String} to - Currency obtained after the conversion
+**/
 const cash = async command => {
   const amount = command.amount;
   const from = command.from.toUpperCase();
