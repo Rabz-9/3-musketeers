@@ -49,7 +49,7 @@ node /cash/bin/index.js
 ```
 - After we have the following result :
 
-![alt text](https://github.com/Rabz-9/3-musketeers/tree/master/img/usage.png "Screen1")
+![alt text](.././img/usage.png "Screen1")
 
 To process the conversion and get the current rate, we use an **API** : *http://akep.us/currencies*
 
@@ -68,7 +68,7 @@ If you don't precise the currency you want, by default we obtain the conversion 
 
 When you run the previous command, you'll obtain the following result :
 
-![alt text](.././img/conversion.png "Screen2")
+![alt text](../img/conversion.png "Screen2")
 
 If you want specific currencies, you have to add after the command the currency you want to calculate.
 
@@ -86,7 +86,7 @@ node /cash/bin/index.js --save usd eur pln aud mxn
 
 With this command, we're going to set the default currencies to estimate, then when we want to estimate an amount of money the default currencies are usd eur pln aud mxn :
 
-![alt text](../img/save.png)
+![alt text](../img/save.png "Screen4")
 
 ### Help
 
